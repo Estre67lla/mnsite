@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+}
+.div1_text {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #302b63;
+  padding: 50px;
+
+  width: 25%;
+  height: 25%;
+
+  margin: 10px;
+
+  border: 4px solid #302b63;
+  text-align: center;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #302b63;
+  color: white;
+}
+.card-item {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  max-width: 30%;
+}
+svg {
+  width: 70px;
+  margin-bottom: 10px;
+}
+.titre-div2 {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.rectangle1 {
+  width: 400px;
+  height: 200px;
+  background-color: #302b63;
+  margin-top: 20px;
+}
+.image2 {
+  width: 300px;
+  margin-top: -150px;
+  margin-left: 15%;
+}
+.image3 {
+  width: 300px;
+}
+.div4 {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/image4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: justify;
+}
+.div4titre {
+  margin-bottom: 20px;
+}
+.div4text {
+  width: 40%;
+  margin-right: 20px;
+  padding: 5%;
+  border: 5px solid white;
+}
+.div5 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: lightgoldenrodyellow;
+}
+.div5item {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  max-width: 30%;
+}
+.rectangle2 {
+  height: 500px;
+  width: 300px;
+  background-color: #302b63;
+}
+.image5 {
+  width: 250px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.image6 {
+  width: 250px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.image7 {
+  width: 400px;
+  margin-top: -150px;
+}
+.div6 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.div6item1 {
+  text-align: center;
+  margin: 10%;
+}
+.div6item2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  max-width: 30%;
+}
+.image8 {
+  width: 100%;
+  height: 70%;
+}
+.div7 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #302b63;
+  color: white;
+}
+.titre-div7 {
+  font-family: serif;
+  font-size: xx-large;
+  margin-top: 20%;
+}
+hr {
+  height: 5px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.item1 {
+  border-left: 5px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.image9 {
+  width: 450px;
+  height: auto;
+}
+.div8 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.div8span {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: gray;
+}
+.div9 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 211);
+  color: #302b63;
+}
+.image10 {
+  width: 150%;
+}
+.div9item1 {
+  background-image: url("images/image10.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.div9titre {
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.mot {
+  background-color: #302b63;
+  color: white;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.div10 {
+  background-color: #302b63;
+  color: white;
+  padding-top: 5%;
+}
+.div10titre {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.div10item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+input {
+  display: block;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+textarea {
+  width: 100%;
+  margin-bottom: 10%;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+button {
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.div11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 200px;
+  background-color: darkslategrey;
+}
+
+@media (max-width: 767px) {
+  .div1_text {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+  }
+
+  .card-item {
+    flex: 1 1 100%;
+    margin: 5px;
+  }
+
+  .image2,
+  .image3,
+  .image5,
+  .image6,
+  .image7,
+  .image8,
+  .image9 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .rectangle1,
+  .rectangle2 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .div4text {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .div5item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .item {
+    flex: 1 1 100%;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .div6item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div6item2 .item {
+    flex: 1 1 100%;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .div7 .card-item {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+
+  .div8 .card-item {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .div9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div9 .card-item {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+
+  .div10item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div10item .card-item {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  .div11 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .image10 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
